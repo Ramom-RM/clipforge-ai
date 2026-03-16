@@ -1,7 +1,17 @@
+<p align="center">
+<img src="screenshots/banner.png" width="100%">
+</p>
+
 <h1 align="center">⚡ ClipForge AI</h1>
 
 <p align="center">
-AI-powered video clipping using Gemini
+Aplicação web que utiliza Inteligência Artificial para analisar vídeos e gerar cortes automaticamente.
+</p>
+
+<p align="center">
+<a href="https://github.com/Ramom-RM/clipforge-ai">
+<img src="https://img.shields.io/github/stars/Ramom-RM/clipforge-ai?style=social">
+</a>
 </p>
 
 <p align="center">
@@ -13,46 +23,73 @@ AI-powered video clipping using Gemini
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Gemini AI](https://img.shields.io/badge/AI-Gemini-purple)
+![Gemini AI](https://img.shields.io/badge/IA-Gemini-purple)
 ![Cloudinary](https://img.shields.io/badge/Cloud-Cloudinary-blue)
 
 </p>
 
 ---
 
-## 📌 About
+# 📌 Sobre o Projeto
 
-ClipForge AI is a web application that uses artificial intelligence to analyze videos and automatically generate intelligent clips.
+O **ClipForge AI** é uma aplicação web que utiliza **Inteligência Artificial** para analisar vídeos e gerar cortes automaticamente com base no conteúdo mais relevante.
 
-The system uploads the video, transcribes the content, sends the transcription to an AI model, and automatically selects the most relevant segments to generate a final clipped video.
+A aplicação permite que o usuário envie um vídeo, faça a transcrição automática do conteúdo, analise o texto com IA e selecione automaticamente os trechos mais importantes para gerar um novo vídeo final.
 
----
-
-## 🚀 Features
-
-* Video upload
-* Automatic transcription
-* AI-powered analysis
-* Intelligent segment detection
-* Automatic video clipping
-* Download of the final processed video
+Esse projeto demonstra integração entre **frontend web, APIs de IA e processamento de mídia**.
 
 ---
 
-## 🧠 How it works
+# 🚀 Funcionalidades
 
-1. User uploads a video
-2. Video is uploaded to Cloudinary
-3. The video is transcribed
-4. The transcription is sent to Gemini AI
-5. The AI analyzes the content
-6. Relevant segments are selected
-7. The video is clipped automatically
-8. The final video is generated for download
+* Upload de vídeo
+* Transcrição automática
+* Análise de conteúdo com IA
+* Seleção inteligente de trechos
+* Corte automático do vídeo
+* Download do vídeo final
 
 ---
 
-## 🛠 Technologies
+# 🧠 Como Funciona
+
+Fluxo da aplicação:
+
+Usuário envia vídeo
+↓
+Upload do vídeo para Cloudinary
+↓
+Transcrição do conteúdo do vídeo
+↓
+Envio da transcrição para Gemini AI
+↓
+Análise do conteúdo pela IA
+↓
+Seleção dos trechos mais relevantes
+↓
+Geração do vídeo com os cortes
+↓
+Download do vídeo final
+
+---
+
+# 📸 Screenshots
+
+### Tela Inicial
+
+![Upload](screenshots/upload.png)
+
+### Processamento
+
+![Processing](screenshots/processing.png)
+
+### Resultado
+
+![Result](screenshots/result.png)
+
+---
+
+# 🛠 Tecnologias Utilizadas
 
 * HTML
 * CSS
@@ -62,23 +99,7 @@ The system uploads the video, transcribes the content, sends the transcription t
 
 ---
 
-## 📸 Screenshots
-
-### Upload
-
-![Upload](screenshots/upload.png)
-
-### Processing
-
-![Processing](screenshots/processing.png)
-
-### Result
-
-![Result](screenshots/result.png)
-
----
-
-## 📂 Project Structure
+# 📂 Estrutura do Projeto
 
 clipforge-ai
 │
@@ -91,29 +112,41 @@ clipforge-ai
 
 ---
 
-## 🚀 Run Locally
+# ▶️ Como Executar o Projeto
 
-Clone the repository
+Clone o repositório
 
 git clone https://github.com/Ramom-RM/clipforge-ai
 
-Enter the project folder
+Entre na pasta do projeto
 
 cd clipforge-ai
 
-Open `index.html` in your browser or run with Live Server.
+Abra o arquivo **index.html** no navegador ou execute usando **Live Server**.
 
 ---
 
-## 🎯 Use Cases
+# 🎯 Possíveis Usos
 
-* Automatically create short clips from long videos
-* Extract highlights from recordings
-* Speed up video editing workflows
-* Assist content creators
+* Criar cortes automáticos de vídeos longos
+* Gerar highlights automaticamente
+* Ajudar criadores de conteúdo
+* Automatizar edição básica de vídeos
 
 ---
 
-## 👨‍💻 Author
+# 🚧 Melhorias Futuras
 
-Ramom Ribeiro Martins
+* Suporte para múltiplos idiomas
+* Melhor ranking de trechos relevantes
+* Exportação otimizada para redes sociais
+* Geração automática de legendas
+* Interface com timeline de edição
+
+---
+
+# 👨‍💻 Autor
+
+**Ramom Ribeiro Martins**
+
+Projeto desenvolvido para estudos e portfólio.
